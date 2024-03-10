@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10) # Minimum version of CMake required. Adjust as necessary.
+
+project(HelloWorld) # Name of your project
+
+set(CMAKE_CXX_STANDARD 14) # Set the C++ standard you want to use
+
+add_executable(HelloWorld hello.cpp) # Name of the executable and the source file
